@@ -211,10 +211,13 @@ Body: file (image), conf (float, default: 0.55)
 
 ---
 
-## 👩💻 Author
+## 👩💻 Authors
 
 **Nikita Dung** — Software Developer · Mumbai
 [LinkedIn](https://linkedin.com/in/nikitadung) · [GitHub](https://github.com/NikitaD27) · dungnikita27@gmail.com
+
+**Karan Dagli**
+[LinkedIn](https://www.linkedin.com/in/karandagli) · [GitHub](https://github.com/Techziekd) · daglikarann@gmail.com
 
 ---
 
