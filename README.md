@@ -213,14 +213,16 @@ Body: file (image), conf (float, default: 0.55)
 
 ## 👩💻 Authors
 
+Built together during the fourth year of our Bachelor's degree.
+
 **Nikita Dung** — Software Developer · Mumbai
 [LinkedIn](https://linkedin.com/in/nikitadung) · [GitHub](https://github.com/NikitaD27) · dungnikita27@gmail.com
 
-**Karan Dagli**
+**Karan Dagli** — Security Engineer
 [LinkedIn](https://www.linkedin.com/in/karandagli) · [GitHub](https://github.com/Techziekd) · daglikarann@gmail.com
 
 ---
 
 ## 📜 License
 
-© 2026 Nikita Dung. All rights reserved.
+© 2026 Nikita Dung & Karan Dagli. All rights reserved.
