@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+}
+
+.dark {
+  --bg-primary: #0B0F1A;
+  --bg-secondary: #161B26;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  @apply antialiased;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+.glass-card {
+  @apply glass rounded-2xl p-6 transition-all duration-300;
+}
+
+.glass-card:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark .glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-400/30 rounded-full hover:bg-slate-400/50;
+}
